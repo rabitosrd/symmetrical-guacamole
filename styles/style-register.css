@@ -1,0 +1,80 @@
+* {
+     margin: 0;
+	 padding: 0;
+}
+
+#body  {
+     background: #B5B5B5;
+     font-family: Arial;
+}
+
+#container  {
+    margin: 0 auto;
+	width: 900px;
+	height: auto;
+}	
+
+/* Imagem Logomarca */
+#container #imageLogo {
+    margin-left:230px;
+	margin-top: 20px;
+}
+
+
+#container #login {
+    margin: 5% auto;
+	width: 500px;
+	height: 210px;
+    background: #CCC;
+    padding: 15px;
+    border-radius: 10px;	
+}
+
+#container #login form {
+    display: block;
+}
+
+/* Campos Login e Senha */
+#container #login form #input {
+   position: relative;
+   top: -135px;
+   left: 250px;
+}
+   
+#container #login form #input input[type="text"] {
+    outline: none;
+    display:block;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+	border: #000 solid 1px;
+}
+
+#container #login form #input input[type="password"] {
+	outline: none;
+    display:block;
+	width: 200px;
+	height: 20px;
+	border-radius: 10px;
+	border: #000 solid 1px;
+}
+
+/* Personalizar o Botão */
+#container #login form #input input[type="submit"] {
+   outline: none;
+   margin-top: 15px;
+   width: 60px;
+   height: 30px;
+   position:relative;
+   border-radius: 10px;
+   border: #000 solid 1px;
+   left: 60px;
+}
+
+/* Personalizar o Registro de IP */
+#container #login .span_IP {
+   position: relative;
+   top: -60px;
+   left: 40px;
+}
+

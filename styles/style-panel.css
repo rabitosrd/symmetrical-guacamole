@@ -1,0 +1,172 @@
+* {
+     margin: 0;
+	 padding: 0;
+}
+
+#body {
+    background: #B5B5B5;
+    color: #333;
+}
+
+#div_Container {
+    margin: 0 auto;
+	width: 900px;
+	height: auto;
+}
+
+/* Configurar o Cabeçalho do Topo */
+#div_Container #div_Topo {
+    float: left;
+	width: 100%;
+	height: 170px;
+	background: #A8A8A8;
+    margin-top: 5px;
+	text-align: center;	
+}
+
+/* Configurar a imagem no Topo */
+#div_Container #div_Topo #imageTOPO  {
+    margin-top: 10px;
+}	
+
+#div_Container #div_Menu {
+    float: left;
+    width: 100%;
+    height: 35px;
+    background: #333;
+    text-align: center;
+	font-family: Arial;
+}
+
+#div_Container #div_Menu ul {
+    margin: 10px;
+}
+
+#div_Container #div_Menu ul li {
+    list-style-type: none;
+	display: inline-table;
+} 
+
+#div_Container #div_Menu ul li a {
+     text-decoration: none;
+	 color: #CCC;
+	 padding: 10px;
+}
+
+#div_Container #div_Menu ul li a:hover {
+     color: #FFF;
+}
+
+#div_Container #div_Conteudo {
+     float: left;
+	 width: 100%;
+	 background: #DEDEDE;
+	 height: 400px;
+}
+
+#pText {
+    margin: 20px;
+	font-family: Arial;	 
+}
+
+
+#form_Usuario {
+     float: left;
+	 width: 250px;
+	 height: auto;
+	 background: #CCC;
+	 padding:40px;
+	 margin-top: 30px;
+	 margin-left: 300px;
+	 font-size: 14px;
+	 font-family: Verdana;
+}
+
+#form_Usuario input[type="text"]  {
+	width: 240px;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+
+#form_Usuario input[type="submit"]  {
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #EBEBEB;
+	margin-left: 70px;
+}
+
+
+#form_Postagem {
+     float: left;
+	 width: 250px;
+	 height: auto;
+	 background: #CCC;
+	 padding:40px;
+	 margin-top: 30px;
+	 margin-left: 300px;
+	 font-size: 14px;
+	 font-family: Verdana;
+}
+
+#form_Postagem input[type="text"]  {
+	width: 240px;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+#form_Postagem textarea {
+	width: 240px;
+	height: 100px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+#form_Postagem input[type="submit"]  {
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #EBEBEB;
+	margin-left: 70px;
+}
+
+#div_Container #div_Rodape {
+    float: left;
+    width: 100%;
+    height: 45px;
+    background: #A8A8A8;
+    border-bottom: 1px solid #000;
+}
+
+#div_Container #div_Rodape span {
+	float: left;
+	font-size: 14px;
+	padding-top: 16px;
+	padding-left: 300px;
+}
+
+/* Personalizar Tabela */
+
+table { float: left; font: 85% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif; padding: 0; margin: 0; border-collapse: collapse;
+color: #333; background: F3F5F7;}
+table a {color: #3A4856; text-decoration: none; border-bottom: 1px solid #C6C8CB;}
+table a:visited {color: #777;}
+table a:hover {color: #000;}
+table caption {text-align: left; text-transform: uppercase: padding-bottom: font: 200% "Lucida Grande",  "Lucida Sans Unicode", "Trebuchet MS",
+sans-serif;}
+table thead th {background: #3A4856; padding: 15px 10px; color: #fff; text-align: left; font-weigth: normal;}
+table tbody, table thead {border-left: 1px solid #EAECEE; border-right: 1px solid #EAECEE;}
+table tbody {border=bottom: 1px solid #EAECEE;}
+table tbody td, table tbody th {padding: 10px; background: url("td_back.gif") repeat-x; text-align: left;}
+table tbody tr {background: #F3F5F7;}
+table tbody tr .odd {background: #F0F2F4;}
+table tbody tr:hover {background: #EAECEE; color: #111}
+table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif; 
+text-transform: uppercase; background: afff; padding: 10px;}
+	
