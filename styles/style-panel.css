@@ -14,7 +14,7 @@
 	height: auto;
 }
 
-/* Configurar o Cabe�alho do Topo */
+/* Configurar o Cabeçalho do Topo */
 #div_Container #div_Topo {
     float: left;
 	width: 100%;
@@ -126,6 +126,7 @@
 	border-radius: 5px;
 	border: 1px solid #CCC;
 	padding: 5px;
+	resize: none;
 }
 
 #form_Postagem input[type="submit"]  {
