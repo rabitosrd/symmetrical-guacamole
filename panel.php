@@ -11,6 +11,14 @@
 	    <meta charset="UTF-8">
 	    <title> Consulfix > - Painel de Controle </title>
 		<link rel="stylesheet" href="styles/style-panel.css" type="text/css" media="all" />
+	<style>
+		table tbody td {
+		padding: 10px;
+		background: url(td_back.gif) repeat-x;
+		text-align: left;
+		word-break: break-all;
+	}
+	</style>
 	</head>
     <body>
         <div id="div_Container">
