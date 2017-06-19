@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="dist/css/bootstrap.css">
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.container-fluid{
+		padding: 0;
+		margin: 0;
+	}
+	header{
+		height: 250px;
+		background-color: #ccc;
+		text-align: center;
+	}
+	header img{
+		margin-top: 3%;
+	}
+
+	.menu{
+		background-color: #333333;
+		height: 50px;
+	}
+	.nav.nav-pills{
+		margin-left: 25%;
+	}
+	.nav-pills > li > a{
+		color: white;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.nav-pills > li > a:hover{
+		background-color: black;
+	}
+	.table{
+		margin-bottom: 0;
+	}
+	thead{
+		background-color: #3a4856;
+	}
+	thead th{
+		color: white;
+	}
+	tbody{
+		background-color: #f3f5f7;
+	}
+	tbody td:hover{
+		background-color: #fff;	
+	}
+	footer{
+		background-color: #ccc;
+		height: 50px;
+		padding: 14px 0;
+	}
+	footer p{
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+<div class="container-fluid">
+	<header>
+		<img src="../images/logo.png" alt="">
+	</header>
+	<section class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills">
+	  					<li> <a href="index.php"> Início </a> </li>
+						<li><a href="panel.php"> Painel </a> </li>
+						<li><a href="panel.php?func=addPostagem"> Add Postagem </a> </li>
+						<li><a href="panel.php?func=addUsuario"> Add Usuário </a> </li>
+						<li><a href="panel.php?func=Postagens"> Postagens </a> </li>
+						<li><a href="panel.php?func=Usuarios"> Usuários </a> </li>
+	  				</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+<section class="meio-tabela">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<table class="table table-hover">
+  					<thead>
+        				<tr>
+            				<th>
+                				ID
+            				</th>
+            				<th>
+                				Título
+            				</th>
+            				<th>
+                				Texto
+            				</th>
+            				<th>
+                				Autor
+            				</th>
+            				<th>
+                				Data
+            				</th>
+        				</tr>
+    				</thead>
+    				 <tbody>
+                <tr>
+            <td>
+                14            </td>
+            <td>
+                Teste de Postagem            </td>
+            <td>
+                 dflsdjadfllsjfl
+sdfsdjfljsldj            </td>
+            <td>
+                userAdmin            </td>
+            <td>
+                30/05/2017 - 03:51:4            </td>
+        </tr>
+                <tr>
+            <td>
+                15            </td>
+            <td>
+                postagem do dia            </td>
+            <td>
+                 terca feira dia de prova na faculdade            </td>
+            <td>
+                userAdmin            </td>
+            <td>
+                30/05/2017 - 05:17:1            </td>
+        </tr>
+                <tr>
+            <td>
+                16            </td>
+            <td>
+                Postagem            </td>
+            <td>
+                presidente do Supremo Tribunal Federal (STF), ministra Carmen L�cia, disse nesta segunda-feira (12), por meio de sua assessoria de imprensa, que n�o "h� o que questionar quanto � palavra" do presidente Michel Temer, que negou ter acionado a Ag�ncia Brasileira de Intelig�ncia (Abin) para investigar o ministro Luiz Edson Fachin.
+Reportagem da revista 'Veja' neste fim de semana afirmou que Fachin, relator da Lava Jato no STF, estaria sendo investigado pela ag�ncia a mando do governo. Diante da den�ncia, Temer ligou para C�rmen L�cia, segundo o blog da Cristiana L�bo, para negar que tenha acionado a Abin contra o ministro.
+A ministra informou ainda que, com a negativa de Temer, ela n�o vai adotar �qualquer provid�ncia� sobre a not�cia.            </td>
+            <td>
+                userAdmin            </td>
+            <td>
+                30/05/2017 - 23:51:5            </td>
+        </tr>
+            </tbody>
+				</table>
+			</div>
+		</div>
+		<footer>
+	<p>Consulfix 2017 - Todos os direitos reservados.</p>
+</footer>
+	</div>
+</section>
+
+</body>
+</html>
